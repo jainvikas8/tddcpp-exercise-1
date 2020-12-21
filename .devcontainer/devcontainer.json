@@ -1,0 +1,6 @@
+{
+	"image": "feabhas/gmock-meson-gcc9",
+	"extensions": [
+		"ms-vscode.cpptools"
+	]
+}
