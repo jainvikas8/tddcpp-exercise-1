@@ -1,6 +1,12 @@
 {
-	"image": "feabhas/gmock-meson-gcc9",
+	"image": "feabhas/gmock-meson-gcc9:latest",
 	"extensions": [
-		"ms-vscode.cpptools"
-	]
+		"ms-vscode.cpptools",
+		"asabil.meson",
+		"davidschuldenfrei.gtest-adapter"
+	],
+	// Set *default* container specific settings.json values on container create.
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
 }
