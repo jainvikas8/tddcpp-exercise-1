@@ -1,5 +1,4 @@
 {
-    "testMate.cpp.log.logSentry": "disable_3",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -25,5 +24,6 @@
     "gtest-adapter.debugConfig": [
         "(gdb) Launch"
     ],
-    "gtest-adapter.supportLocation": true
+    "gtest-adapter.supportLocation": true,
+    "gtest-adapter.runAfterBuild": true
 }
