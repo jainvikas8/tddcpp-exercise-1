@@ -38,6 +38,14 @@ TEST_F(BufferTest, add_one)
   ASSERT_FALSE(buffer.is_empty());
 }
 
+TEST_F(BufferTest, add_one_and_reset)
+{
+  buffer.add(48);
+  buffer.reset_buffer();
+
+  ASSERT_TRUE(buffer.is_empty());
+}
+
 TEST_F(BufferTest, add_one_and_check_remaining)
 {
   ASSERT_EQ(Buffer::Status::Ok, buffer.add(48));
@@ -143,4 +151,3 @@ TEST_F(BufferTest, add_and_read_circular)
 
   ASSERT_TRUE(buffer.is_empty());
 }
-

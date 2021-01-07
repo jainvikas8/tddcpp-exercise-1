@@ -27,6 +27,7 @@
             bool    is_empty();
             std::uint8_t    size();
             std::uint8_t    remaning_capacity();
+            void    reset_buffer();
 
         private:
             static constexpr std::uint8_t sz = 32;

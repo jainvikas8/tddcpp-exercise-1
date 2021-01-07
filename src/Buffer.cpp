@@ -57,3 +57,8 @@ Buffer::Status Buffer::add(std::uint32_t value)
         return Status::Ok;
     }
 }
+
+void  Buffer::reset_buffer()
+{
+    num_items = write = read = 0;
+}
